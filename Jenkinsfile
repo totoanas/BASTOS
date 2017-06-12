@@ -19,9 +19,7 @@ pipeline {
     }
     stage('DEPLOY') {
       steps {
-        retry(count: 4) {
-  
-        }
+        echo 'iyyah'
         
       }
     }
