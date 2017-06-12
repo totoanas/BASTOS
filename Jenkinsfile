@@ -14,12 +14,13 @@ pipeline {
     stage('BUILD_FINAL') {
       steps {
         echo 'final'
+        zz
       }
     }
     stage('DEPLOY') {
       steps {
         retry(count: 4) {
-          retry(count: 2)
+  
         }
         
       }
